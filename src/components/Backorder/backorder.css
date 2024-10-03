@@ -1,0 +1,60 @@
+/* Container styling */
+.backorder {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  .bckorderlist{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bckorderlist li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #dc3545; /* Red accent for backorders */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #555;
+  }
+  
+  /* No backorders message */
+  p {
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    div {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    ul li {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  

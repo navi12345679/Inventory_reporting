@@ -1,0 +1,56 @@
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(211, 93%, 54%);
+    padding: 16px;
+    box-shadow: 0 1px 3px 2px hsl(212, 75%, 61%);
+    align-items: center;
+  }
+  
+  .navlist {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+  }
+  
+  .navlist li {
+    margin: 0;
+  }
+  
+  .navlist li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navlist li a:hover {
+    background-color: hsla(210, 83%, 54%, 0.541);
+  }
+  
+  .navlist li a.active {
+    background-color: hsl(211, 79%, 71%);
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navlist {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navlist li a {
+      font-size: 14px;
+      padding: 10px 12px;
+    }
+  }
+  

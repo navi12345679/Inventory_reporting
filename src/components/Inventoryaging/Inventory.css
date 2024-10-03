@@ -1,0 +1,62 @@
+/* Container styling */
+.inventory {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Select dropdown styling */
+  label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Chart styling */
+  canvas {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    div {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    select {
+      font-size: 14px;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
